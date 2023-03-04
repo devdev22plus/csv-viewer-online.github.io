@@ -14,9 +14,16 @@ body {
   height: 100%;
 }
 
-.place-your-ad-here {
+.sponsors {
   position: fixed;
   top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.place-your-ad-here {
   border: 3px solid #126BCF;
   border-radius: 5px;
   color: #126BCF;
